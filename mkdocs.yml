@@ -13,10 +13,6 @@ nav:
 
   - Node-RED:
       - Overview: node-red/overview.md
-      - Modbus RTU: node-red/modbus-rtu.md
-      - MQTT: node-red/mqtt.md
 
   - Industrial Protocol:
       - Modbus: protocol/modbus.md
-      - CAN: protocol/can.md
-      - OPC UA: protocol/opc-ua.md
