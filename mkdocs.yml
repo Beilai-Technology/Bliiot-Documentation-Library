@@ -1,28 +1,17 @@
 site_name: ARMxy Developer Center
 site_description: Official documentation for ARMxy industrial edge gateways
 
+# 主题：material 工业文档美观主题，外网展示效果好
 theme:
   name: material
-  features:
-    # 核心：侧边分组可折叠展开，实现图二下拉效果
-    - navigation.sections
-    # 侧边栏永久显示，移除左上角三条横杠
-    - navigation.sidebar
-    # 右侧目录常驻
-    - navigation.toc
-    # 搜索增强
-    - search.suggest
-    - search.highlight
 
+# 导航栏目录，和你仓库 docs 下文件一一对应
 nav:
   - Home: index.md
-
   - Getting Started:
       - Introduction: getting-started/introduction.md
       - test: getting-started/test.md
-
   - Node-RED:
       - Overview: node-red/overview.md
-
   - Industrial Protocol:
       - Modbus: protocol/modbus.md
