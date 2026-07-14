@@ -1,14 +1,27 @@
-site_name: BLIIOT Classroom
+site_name: ARMxy Developer Center
 
 site_description: Official documentation for ARMxy industrial edge gateways
 
+
 theme:
   name: material
+
+  custom_dir: overrides
+
   features:
     - navigation.sections
     - navigation.expand
     - search.suggest
     - search.highlight
+
+
+extra_css:
+  - assets/custom.css
+
+
+extra_javascript:
+  - assets/custom.js
+
 
 nav:
   - Home: index.md
@@ -20,5 +33,5 @@ nav:
   - Node-RED:
       - Overview: node-red/overview.md
 
-  - Industrial Protocol:
+  - Industrial Protocols:
       - Modbus: protocol/modbus.md
