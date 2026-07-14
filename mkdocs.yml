@@ -15,3 +15,6 @@ nav:
       - First acquaintance: node-red/First acquaintance.md
   - Industrial Protocol:
       - Modbus: protocol/modbus.md
+
+extra_css:
+  - assets/custom.css
