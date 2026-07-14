@@ -1,0 +1,13 @@
+.nav-children {
+    display:none;
+}
+
+.nav-group.open .nav-children {
+    display:block;
+}
+
+.nav-toggle {
+    width:100%;
+    text-align:left;
+    cursor:pointer;
+}
