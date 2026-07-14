@@ -10,6 +10,7 @@ nav:
 
   - Getting Started:
       - Introduction: getting-started/introduction.md
+      - test: getting-started/test.md
 
   - Node-RED:
       - Overview: node-red/overview.md
