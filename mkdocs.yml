@@ -1,14 +1,12 @@
 site_name: ARMxy Developer Center
+
 site_description: Official documentation for ARMxy industrial edge gateways
 
 theme:
   name: material
   features:
-    # 1. 开启右侧目录分组折叠（实现图二下拉箭头）
     - navigation.sections
-    # 2. 强制隐藏左侧侧边栏，不再显示左侧导航列表
-    - navigation.toc_only
-    # 搜索增强
+    - navigation.expand
     - search.suggest
     - search.highlight
 
@@ -17,7 +15,7 @@ nav:
 
   - Getting Started:
       - Introduction: getting-started/introduction.md
-      - test: getting-started/test.md
+      - Test: getting-started/test.md
 
   - Node-RED:
       - Overview: node-red/overview.md
