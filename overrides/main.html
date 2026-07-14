@@ -1,1 +1,10 @@
+{% extends "base.html" %}
 
+
+{% block scripts %}
+
+{{ super() }}
+
+<script src="{{ 'assets/custom.js' | url }}"></script>
+
+{% endblock %}
