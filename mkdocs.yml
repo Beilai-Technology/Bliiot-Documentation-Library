@@ -18,7 +18,7 @@ nav:
   - Node-RED:
       - 第1篇：快速装好Node-RED，在ARMxy上跑通你的第一个节点: node-red/First-acquaintance.md
       - 第2篇：Node-RED基础节点全掌握实战教程（Inject、Debug、Switch、Function）: node-red/02-node-red.md
-  - Industrial Protocol
+  - Industrial Protocol:
       - Modbus: protocol/modbus.md
 
 extra_css:
