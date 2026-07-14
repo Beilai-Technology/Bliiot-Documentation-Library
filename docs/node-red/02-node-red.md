@@ -1,7 +1,7 @@
 # 一、实验目标
 
 基于ARMxy工业计算机，熟练掌握 Node-RED 开发中最核心、最高频的四个基础节点，分别为 Inject（注入节点）、Debug（调试节点）、Switch（判断节点）、Function（函数节点）。
-(assets/picture/1.png)
+![ARMxy BL340 工业边缘网关](assets/picture/1.png)
 # 二、Node-RED 消息机制简介
 
 Node-RED 所有节点的数据交互、流程传递均基于 msg 消息对象 实现，节点之间传输的所有数据都封装在该对象中，是 Node-RED 运行的核心载体。
