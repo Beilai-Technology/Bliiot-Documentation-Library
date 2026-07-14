@@ -1,9 +1,18 @@
 site_name: ARMxy Developer Center
-
 site_description: Official documentation for ARMxy industrial edge gateways
 
 theme:
   name: material
+  features:
+    # 核心：侧边分组可折叠展开，实现图二下拉效果
+    - navigation.sections
+    # 侧边栏永久显示，移除左上角三条横杠
+    - navigation.sidebar
+    # 右侧目录常驻
+    - navigation.toc
+    # 搜索增强
+    - search.suggest
+    - search.highlight
 
 nav:
   - Home: index.md
