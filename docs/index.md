@@ -13,22 +13,6 @@ ARMxy is an industrial edge computing platform designed for industrial IoT appli
 - CAN bus communication
 - Linux edge computing environment
 
-
-## Documentation
-
-### Getting Started
-
-Learn how to configure and use ARMxy industrial gateways.
-
-### Node-RED
-
-Tutorials for data acquisition, protocol conversion and IoT applications.
-
-### Industrial Protocols
-
-Guides for Modbus, CAN, OPC UA and other industrial communication protocols.
-
-
 ## Applications
 
 - Industrial IoT Gateway
