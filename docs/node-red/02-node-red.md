@@ -1,6 +1,7 @@
 # 一、实验目标
 
 基于ARMxy工业计算机，熟练掌握 Node-RED 开发中最核心、最高频的四个基础节点，分别为 Inject（注入节点）、Debug（调试节点）、Switch（判断节点）、Function（函数节点）。
+
 <img width="642" height="642" alt="1" src="https://github.com/user-attachments/assets/e7037a27-f3b3-431e-b515-a6d13d5988de" />
 
 # 二、Node-RED 消息机制简介
@@ -26,6 +27,7 @@ msg.payload：消息主体数据，是整个流程中数据存储、处理、传
 ## 3.1 节点作用
 
 Inject 节点是流程的触发源头，用于主动生成消息、启动整个业务流程，无需依赖外部设备、接口触发，是调试、测试、模拟场景的核心节点。
+
 <img width="386" height="449" alt="2" src="https://github.com/user-attachments/assets/a55405f2-0b49-457b-9dc2-5240f6b55020" />
 
 常见应用场景：
@@ -76,6 +78,7 @@ Switch 节点为条件分流节点，类比编程语言中的 if、else if、els
 ## 6.1 节点作用
 
 Function 节点是 Node-RED 的自定义逻辑核心，支持编写原生 JavaScript 代码处理消息数据，弥补可视化节点的功能短板，适用于复杂数据处理场景。
+
 <img width="330" height="235" alt="image" src="https://github.com/user-attachments/assets/31f1dab0-898e-498e-a96a-1b0150b66cb0" />
 
 核心应用场景：数据计算、数据格式转换、字符串处理、协议数据解析、自定义业务逻辑封装、复杂条件判断。
@@ -125,6 +128,7 @@ Switch 节点（温度条件分流）
 ## 7.5 高温报警分支 Function 配置
 
 对超温数据进行文字封装，生成报警提示，如图：
+
 <img width="256" height="114" alt="image" src="https://github.com/user-attachments/assets/f7145b6f-29af-4155-bc5d-154d7151b2f5" />
 
 ## 7.6 正常温度分支 Function 配置
