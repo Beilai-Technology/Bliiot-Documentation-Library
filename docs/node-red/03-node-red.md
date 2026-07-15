@@ -138,7 +138,7 @@ Node-RED默认基础节点功能有限。可通过内置「节点管理」功能
 
 打开 Node-RED编辑器页面，点击页面右上角的菜单图标，在弹出的下拉菜单中选择「节点管理」，即可进入节点管理配置面板。
 
-![Uploading image.png…]()
+<img width="216" height="441" alt="image" src="https://github.com/user-attachments/assets/11d392f4-8bda-4c5b-8c6a-0ce4462af2fc" />
 
 ### 步骤2：切换安装标签页
 
