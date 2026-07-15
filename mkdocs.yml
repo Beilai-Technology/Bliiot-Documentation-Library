@@ -5,13 +5,13 @@ site_description: Official documentation for ARMxy industrial edge gateways
 theme:
   name: material
   custom_dir: overrides
+  language: zh
   palette:
     # 亮色模式下代码块自动深色
     - scheme: default
       primary: indigo
       accent: blue
-  features:
-    - toc.integrate
+      
 # 导航栏目录，和你仓库 docs 下文件一一对应
 nav:
   - 首页: index.md
