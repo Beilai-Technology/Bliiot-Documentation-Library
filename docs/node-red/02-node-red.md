@@ -1,4 +1,4 @@
-# 第2篇 Node-RED基础节点全掌握实战教程（Inject、Debug、Switch、Function）
+# Node-RED基础节点全掌握实战教程（Inject、Debug、Switch、Function）
 
 ## 一、实验目标
 
