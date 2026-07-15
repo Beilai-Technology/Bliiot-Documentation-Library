@@ -45,36 +45,42 @@
    Google 翻译按钮样式
    ========================== */
 
-#google_translate_element {
+.md-header__option {
     display: flex;
     align-items: center;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 
-/* Google翻译默认文字大小 */
+#google_translate_element {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Google翻译默认文字 */
 .goog-te-gadget {
-    font-size: 13px !important;
+    font-size: 12px !important;
     white-space: nowrap;
 }
 
 
-/* 下拉选择框 */
+/* 下拉框 */
 .goog-te-gadget select {
-    padding: 4px 8px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    background: white;
+    height: 30px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    border: 1px solid rgba(255,255,255,.3);
 }
 
 
-/* 隐藏 Google 顶部提示条 */
+/* 隐藏顶部黑条 */
 .goog-te-banner-frame {
     display: none !important;
 }
 
 
-/* 防止翻译后页面整体下移 */
+/* 防止页面偏移 */
 body {
-    top: 0 !important;
+    top:0 !important;
 }
