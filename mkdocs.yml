@@ -12,22 +12,24 @@ theme:
       primary: indigo
       accent: blue
       
-# 导航栏目录，和你仓库 docs 下文件一一对应
+# 导航栏目录，完全匹配仓库 docs 实际文件层级
 nav:
   - 首页: index.md
   - 教程案例:
-      - Node-red: 教程案例/Node-red.md
-      - BLRAT: 教程案例/BLRAT.md
-      - BLIoTLink: 教程案例/BLIoTLink.md
-  - EdgePLC 边缘控制器:
-      - 规格书: EdgePLC 边缘控制器/规格书.md
-      - 说明书: EdgePLC 边缘控制器/说明书.md
-  - ARMxy 边缘网关:
-      - 规格书: ARMxy 边缘网关/规格书.md
-      - 说明书: ARMxy 边缘网关/说明书.md
+      - Node-RED: 教程案例/Node-red.md
+      - BLRAT 远程运维: 教程案例/BLRAT.md
+      - BLIoTLink 协议工具: 教程案例/BLIoTLink.md
+  - 硬件产品:
+      - ARMxy 边缘网关:
+          - BL335 说明书: 硬件产品/ARMxy/BL335说明书.md
+          - BL335 使用说明书: 硬件产品/ARMxy/BL335使用说明书.md
+      - EdgePLC 边缘控制器:
+          - BL245 规格书: 硬件产品/EdgePLC/BL245规格书.md
+          - BL245 使用说明书: 硬件产品/EdgePLC/BL245使用说明书.md
   - 软件产品:
       - BLRAT: 软件产品/BLRAT.md
       - EdgeCoder: 软件产品/EdgeCoder.md
+      - 软件产品总览: 软件产品/index.md
 
 extra_css:
   - assets/custom.css
