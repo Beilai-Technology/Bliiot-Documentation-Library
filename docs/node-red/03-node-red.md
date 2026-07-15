@@ -65,7 +65,7 @@
 
    典型场景：将流程处理后的设备状态、控制指令、告警信息发布到MQTT 服务器指定主题，供终端设备、云端平台订阅接收，实现物联网双向通信。
 
-<img width="105" height="28" alt="image" src="https://github.com/user-attachments/assets/41ddf96d-ff16-4d1d-b8aa-236fc018687d" />
+<img width="100" height="25" alt="image" src="https://github.com/user-attachments/assets/db73e2b4-a11e-4da4-bb26-ee43e72a746b" />
 
 ### （三）处理类节点
 
@@ -75,7 +75,7 @@
 
    典型场景：根据数据数值、状态、关键词等条件进行多分支判断，实现流程分流，例如根据设备温度数值区分正常、预警、告警三种业务分支。
    
-<img width="105" height="24" alt="image" src="https://github.com/user-attachments/assets/9d8f5d5b-04e4-4022-9a77-4ee670bb7727" />
+<img width="105" height="28" alt="image" src="https://github.com/user-attachments/assets/41ddf96d-ff16-4d1d-b8aa-236fc018687d" />
 
 3. **Function 自定义函数节点**
 
