@@ -1,4 +1,4 @@
-# 第5篇 基于ARMxy内置Node-RED平台的Modbus RTU数据采集实战
+# 基于ARMxy内置Node-RED平台的Modbus RTU数据采集实战
 
 ## 1 方案简介
 
