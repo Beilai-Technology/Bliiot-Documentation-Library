@@ -69,10 +69,12 @@ S7-1200/1500系列PLC默认采用 Rack=0、Slot=1 模式通信，但该模式不
 
 若强行使用Rack/Slot模式，会直接导致通信异常，触发以下报错：
 
+```
 Plain Text
 offline
 Error: read ECONNRESET
 Error: write ECONNRESET
+```
 
 报错原因：S7-200 SMART PLC底层通信协议仅支持TSAP链路握手，不兼容Rack/Slot寻址机制，所有部署场景必须固定选择 Mode=TSAP。
 
