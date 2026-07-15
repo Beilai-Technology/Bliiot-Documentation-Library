@@ -22,6 +22,15 @@ nav:
       - 第1篇：快速装好Node-RED，在ARMxy上跑通你的第一个节点: node-red/First-acquaintance.md
       - 第2篇：Node-RED基础节点全掌握实战教程（Inject、Debug、Switch、Function）: node-red/02-node-red.md
       - 第3篇：Node-RED常用功能节点盘点及社区节点安装: node-red/03-node-red.md
+      - 第4篇 基于ARMxy内置Node-red平台采集西门子S7-200 SMART PLC数据实操: node-red/04-node-red.md
+      - 第5篇 基于ARMxy内置Node-RED平台的Modbus RTU数据采集实战: node-red/05-node-red.md
+      - 第6篇 Node-RED Modbus RTU数据采集及MQTT云端上传演示: node-red/06-node-red.md
+      - 第7篇 基于 Node-RED 的自定义TCP协议通信实现: node-red/07-node-red.md
+      - 第8篇 Node-RED 双数据库存储实现: node-red/08-node-red.md
+      - 第9篇 Node-RED Dashboard 可视化数据看板实现: node-red/09-node-red.md
+      - 第10篇 Node-RED 本地离线风速联动风扇控制: node-red/010-node-red.md
+      - 第11章 Node-RED Exec 节点使用教程: node-red/011-node-red.md
+      - 第12篇 Node-RED实现OPC UA数据采集与MQTT上报华为云 : node-red/012-node-red.md
   - Industrial Protocol:
       - Modbus: protocol/modbus.md
 
