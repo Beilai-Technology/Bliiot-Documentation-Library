@@ -1,4 +1,4 @@
-# 第2篇 Node-RED基础节点全掌握实战教程（Inject、Debug、Switch、Function）
+# 第3篇：Node-RED常用功能节点盘点及社区节点安装
 
 ## 一、文档概述
 
