@@ -2,4 +2,6 @@
 
 提供从基础节点使用、工业协议通信到实际项目应用的完整开发教程。
 
+点击图片进入
+
 [![Node-RED教程](../assets/images/Node-RED.png)](https://beilai-technology.github.io/armxy-docs)
