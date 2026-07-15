@@ -46,40 +46,35 @@
    ========================== */
 
 #google_translate_element {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-    z-index: 9999;
-
-    background: white;
-    padding: 8px 12px;
-    border-radius: 8px;
-
-    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
 }
 
 
 /* Google翻译默认文字大小 */
 .goog-te-gadget {
-    font-size: 14px !important;
+    font-size: 13px !important;
+    white-space: nowrap;
 }
 
 
-/* 下拉框样式 */
+/* 下拉选择框 */
 .goog-te-gadget select {
-    padding: 5px 8px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: white;
 }
 
 
-/* 隐藏Google顶部黑色提示条 */
+/* 隐藏 Google 顶部提示条 */
 .goog-te-banner-frame {
     display: none !important;
 }
 
 
-/* 修复Material主题顶部偏移 */
+/* 防止翻译后页面整体下移 */
 body {
     top: 0 !important;
 }
