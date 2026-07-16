@@ -116,3 +116,13 @@ body {
         #E8FAEE 100%
     ) !important;
 }
+
+/* 网站标题 */
+.md-header__title {
+    color: #333333 !important;
+}
+
+/* 左侧菜单按钮 */
+.md-header__button {
+    color: #333333 !important;
+}
