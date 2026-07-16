@@ -1,4 +1,7 @@
-/* 一级标题 # 章节大标题 —— 三号 */
+/* ==========================
+   标题、正文字号（公文字号标准）
+   ========================== */
+/* 一级标题 # 章节大标题 —— 小二 */
 .md-typeset h1 {
     font-size: 1.5rem;
     font-weight: 700;
@@ -40,11 +43,53 @@
     font-size: 0.82rem;
 }
 
+/* ==========================
+   顶部导航栏加宽、拉高、Logo清晰不压缩
+   ========================== */
+/* 顶栏容器铺满全屏，加高整体高度 */
+.md-header__inner {
+    max-width: 100% !important;
+    padding: 0 2rem !important;
+    height: 80px !important;
+}
+
+/* Logo区域放大，完整展示不压缩模糊 */
+.md-header__button.md-logo {
+    height: 100%;
+    padding: 8px 0;
+}
+.md-header__button.md-logo img {
+    height: 64px !important;
+    width: auto;
+}
+
+/* 右侧站点标题垂直居中 */
+.md-header__title {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* 翻译、搜索按钮垂直居中对齐 */
+.md-header__source {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* 移动端适配，避免导航过高 */
+@media screen and (max-width:768px) {
+    .md-header__inner {
+        height: 64px !important;
+    }
+    .md-header__button.md-logo img {
+        height: 44px !important;
+    }
+}
 
 /* ==========================
    Google 翻译按钮样式
    ========================== */
-
 #google_translate_element {
     display: flex;
     align-items: center;
@@ -70,11 +115,14 @@
     display: none !important;
 }
 
+/* ==========================
+   页脚隐藏优化
+   ========================== */
 /* 完全隐藏底部版权栏 */
 .md-footer-meta {
     display: none !important;
 }
-/* 缩小底部空白区域（可选，优化页面留白） */
+/* 缩小底部空白区域 */
 .md-footer {
     padding: 0;
 }
