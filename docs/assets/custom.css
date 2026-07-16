@@ -53,10 +53,11 @@
     height: 80px !important;
 }
 
-/* Logo区域放大，完整展示不压缩模糊 */
+/* Logo区域放大，完整展示不压缩模糊，整体右移 */
 .md-header__button.md-logo {
     height: 100%;
     padding: 8px 0;
+    margin-left: 3rem !important;
 }
 .md-header__button.md-logo img {
     height: 64px !important;
@@ -85,48 +86,8 @@
     .md-header__button.md-logo img {
         height: 44px !important;
     }
-}
-
-/* ==========================
-   Google 翻译按钮样式
-   ========================== */
-#google_translate_element {
-    display: flex;
-    align-items: center;
-    margin-left: 15px;
-}
-
-/* Google翻译默认文字大小 */
-.goog-te-gadget {
-    font-size: 13px !important;
-    white-space: nowrap;
-}
-
-/* 下拉选择框 */
-.goog-te-gadget select {
-    padding: 4px 8px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    background: white;
-}
-
-/* 隐藏 Google 顶部提示条 */
-.goog-te-banner-frame {
-    display: none !important;
-}
-
-/* ==========================
-   页脚隐藏优化
-   ========================== */
-/* 完全隐藏底部版权栏 */
-.md-footer-meta {
-    display: none !important;
-}
-/* 缩小底部空白区域 */
-.md-footer {
-    padding: 0;
-}
-/* 防止翻译后页面整体下移 */
-body {
-    top: 0 !important;
+    /* 手机端减少左边距，不挤内容 */
+    .md-header__button.md-logo {
+        margin-left: 1rem !important;
+    }
 }
