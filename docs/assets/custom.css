@@ -1,43 +1,43 @@
-/* 一级标题 # 章节大标题 */
+/* 一级标题 # 章节大标题 —— 三号 */
 .md-typeset h1 {
-    font-size: 2.4rem;
+    font-size: 1.33rem;
     font-weight: 700;
     margin: 1em 0 0.6em;
 }
 
-/* 二级标题 ## 小节标题 */
+/* 二级标题 ## 小节标题 —— 小三 */
 .md-typeset h2 {
-    font-size: 1.7rem;
+    font-size: 1.25rem;
     font-weight: 600;
     margin: 1em 0 0.5em;
 }
 
-/* 三级标题 ### 子小节 */
+/* 三级标题 ### 子小节 —— 四号 */
 .md-typeset h3 {
-    font-size: 1.4rem;
+    font-size: 1.167rem;
     font-weight: 600;
 }
 
-/* 四级标题 #### */
+/* 四级标题 #### —— 小四 */
 .md-typeset h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
-/* 正文段落文字 */
+/* 正文段落文字 —— 五号 */
 .md-typeset p {
-    font-size: 1.05rem;
+    font-size: 0.875rem;
     line-height: 1.7;
 }
 
-/* 列表 */
+/* 列表同步五号正文尺寸 */
 .md-typeset li {
-    font-size: 1.05rem;
+    font-size: 0.875rem;
     line-height: 1.7;
 }
 
-/* 代码块字号 */
+/* 代码块略小于正文 */
 .md-typeset code {
-    font-size: 0.95rem;
+    font-size: 0.82rem;
 }
 
 
@@ -51,13 +51,11 @@
     margin-left: 15px;
 }
 
-
 /* Google翻译默认文字大小 */
 .goog-te-gadget {
     font-size: 13px !important;
     white-space: nowrap;
 }
-
 
 /* 下拉选择框 */
 .goog-te-gadget select {
@@ -67,13 +65,19 @@
     background: white;
 }
 
-
 /* 隐藏 Google 顶部提示条 */
 .goog-te-banner-frame {
     display: none !important;
 }
 
-
+/* 完全隐藏底部版权栏 */
+.md-footer-meta {
+    display: none !important;
+}
+/* 缩小底部空白区域（可选，优化页面留白） */
+.md-footer {
+    padding: 0;
+}
 /* 防止翻译后页面整体下移 */
 body {
     top: 0 !important;
