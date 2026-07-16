@@ -67,11 +67,12 @@
     object-fit: contain;
 }
 
-/* 右侧站点标题垂直居中 */
+/* 站点标题垂直居中 */
 .md-header__title {
     display: flex;
     align-items: center;
-    height: 100%;
+    height: auto;
+    transform: translateY(5px);
 }
 
 /* 翻译、搜索按钮垂直居中对齐 */
