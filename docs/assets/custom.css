@@ -126,3 +126,21 @@ body {
 .md-header__button {
     color: #333333 !important;
 }
+
+/* ==========================
+   左侧展开菜单背景
+   ========================== */
+
+.md-sidebar {
+    background-color: #F5F7FA !important;
+}
+
+/* 菜单文字颜色 */
+.md-sidebar .md-nav__link {
+    color: #333333 !important;
+}
+
+/* 当前选中项 */
+.md-sidebar .md-nav__link--active {
+    color: #1976D2 !important;
+}
