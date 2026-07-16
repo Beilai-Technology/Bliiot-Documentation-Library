@@ -91,3 +91,16 @@
         margin-left: 1rem !important;
     }
 }
+
+/* 完全隐藏底部版权栏 */
+.md-footer-meta {
+    display: none !important;
+}
+/* 缩小底部空白区域（可选，优化页面留白） */
+.md-footer {
+    padding: 0;
+}
+/* 防止翻译后页面整体下移 */
+body {
+    top: 0 !important;
+}
