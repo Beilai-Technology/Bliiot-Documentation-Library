@@ -71,8 +71,7 @@
 .md-header__title {
     display: flex;
     align-items: center;
-    height: auto;
-    transform: translateY(1px);
+    height: 100%;
 }
 
 /* 翻译、搜索按钮垂直居中对齐 */
