@@ -6,8 +6,8 @@ theme:
   name: material
   custom_dir: overrides
   language: zh
-  logo: assets/images/钡铼logo2024.png
-  favicon: assets/images/钡铼logo2024.png
+  logo: assets/images/钡铼技术英文logo.png
+  favicon: assets/images/钡铼技术英文logo.png
   palette:
     # 亮色模式下代码块自动深色
     - scheme: default
