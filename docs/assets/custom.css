@@ -104,3 +104,24 @@
 body {
     top: 0 !important;
 }
+
+/* ==========================
+   顶部导航栏渐变背景
+   ========================== */
+.md-header {
+    background: linear-gradient(
+        90deg,
+        #E8F3FF 0%,
+        #E8FAEE 100%
+    ) !important;
+}
+
+/* 顶栏文字颜色调整 */
+.md-header__title {
+    color: #333333 !important;
+}
+
+/* 搜索框、按钮颜色 */
+.md-header .md-icon {
+    color: #333333;
+}
