@@ -11,8 +11,8 @@ theme:
   palette:
     # 亮色模式下代码块自动深色
     - scheme: default
-      primary: light-blue
-      accent: blue
+      primary: blue
+      accent: light-blue
       
 # 导航栏目录，完全匹配仓库 docs 实际文件层级
 nav:
