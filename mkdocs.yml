@@ -6,6 +6,8 @@ theme:
   name: material
   custom_dir: overrides
   language: zh
+  logo: assets/图片材料/钡铼logo2024.png
+  favicon: assets/图片材料/钡铼logo2024.png
   palette:
     # 亮色模式下代码块自动深色
     - scheme: default
