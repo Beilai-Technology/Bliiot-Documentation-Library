@@ -53,11 +53,11 @@
     height: 80px !important;
 }
 
-/* Logo区域放大，完整展示不压缩模糊，整体右移 */
+/* Logo区域放大，整体右移 */
 .md-header__button.md-logo {
     height: 100%;
     padding: 8px 0;
-    margin-left: 3rem !important;
+    margin-left: 5rem !important;
 }
 .md-header__button.md-logo img {
     height: 64px !important;
