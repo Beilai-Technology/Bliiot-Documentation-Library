@@ -16,9 +16,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install MkDocs & Material主题
+      - name: Install documentation dependencies
         run: |
-          pip install mkdocs mkdocs-material
+          pip install -r requirements.txt
       - name: Build static site
         run: mkdocs build
       - name: Upload site artifact

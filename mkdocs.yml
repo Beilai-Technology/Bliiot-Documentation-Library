@@ -1,5 +1,39 @@
 site_name: 钡铼技术资料库
 site_description: Official documentation for ARMxy industrial edge gateways
+site_url: https://beilai-technology.github.io/Bliiot-Documentation-Library/
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: zh
+          default: true
+          name: 中文
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            首页: Home
+            教程案例: Tutorials
+            Node-RED: Node-RED
+            BLRAT 远程运维: BLRAT Remote Maintenance
+            BLIoTLink 协议工具: BLIoTLink Protocol Tool
+            硬件产品: Hardware Products
+            ARMxy 边缘网关: ARMxy Edge Gateways
+            BL335 说明书: BL335 Specification
+            BL335 使用说明书: BL335 User Manual
+            EdgePLC 边缘控制器: EdgePLC Controllers
+            BL245 规格书: BL245 Specification
+            BL245 使用说明书: BL245 User Manual
+            软件产品: Software Products
+            BLRAT: BLRAT
+            EdgeCoder: EdgeCoder
+            软件产品总览: Software Overview
 
 # 主题：material 工业文档美观主题，外网展示效果好
 theme:
@@ -29,13 +63,7 @@ nav:
           - BL245 规格书: 硬件产品/EdgePLC/BL245规格书.md
           - BL245 使用说明书: 硬件产品/EdgePLC/BL245使用说明书.md
   - 软件产品:
-      - BLRAT: 软件产品/BLRAT.md
-      - EdgeCoder: 软件产品/EdgeCoder.md
-      - 软件产品总览: 软件产品/index.md
+      - Codesys: 软件/Codesys.md
 
 extra_css:
   - assets/custom.css
-
-extra_javascript:
-  - assets/translate.js
-  - https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit
