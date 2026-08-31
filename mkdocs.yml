@@ -21,8 +21,6 @@ plugins:
             首页: Home
             教程案例: Tutorials
             Node-RED: Node-RED
-            BLRAT 远程运维: BLRAT Remote Maintenance
-            BLIoTLink 协议工具: BLIoTLink Protocol Tool
             硬件产品: Hardware Products
             ARMxy 边缘网关: ARMxy Edge Gateways
             BL335 说明书: BL335 Specification
@@ -31,8 +29,6 @@ plugins:
             BL245 规格书: BL245 Specification
             BL245 使用说明书: BL245 User Manual
             软件产品: Software Products
-            BLRAT: BLRAT
-            EdgeCoder: EdgeCoder
             软件产品总览: Software Overview
 
 # 主题：material 工业文档美观主题，外网展示效果好
@@ -53,15 +49,13 @@ nav:
   - 首页: index.md
   - 教程案例:
       - Node-RED: 教程案例/Node-red.md
-      - BLRAT 远程运维: 教程案例/BLRAT.md
-      - BLIoTLink 协议工具: 教程案例/BLIoTLink.md
   - 硬件产品:
       - ARMxy 边缘网关:
-          - BL335 说明书: 硬件产品/ARMxy/BL335说明书.md
-          - BL335 使用说明书: 硬件产品/ARMxy/BL335使用说明书.md
+          - BL335 说明书: 硬件产品/ARMxy/规格书/BL335规格书.md
+          - BL335 使用说明书: 硬件产品/ARMxy/说明书/BL335说明书.md
       - EdgePLC 边缘控制器:
-          - BL245 规格书: 硬件产品/EdgePLC/BL245规格书.md
-          - BL245 使用说明书: 硬件产品/EdgePLC/BL245使用说明书.md
+          - BL245 规格书: 硬件产品/EdgePLC/规格书/BL245规格书.md
+          - BL245 使用说明书: 硬件产品/EdgePLC/说明书/BL245使用说明书.md
   - 软件产品:
       - Codesys: 软件/Codesys.md
 
