@@ -51,9 +51,7 @@ nav:
       - Node-RED: 教程案例/Node-red.md
   - 硬件产品:
       - ARMxy 边缘网关: 硬件产品/ARMxy.md
-      - EdgePLC 边缘控制器:
-          - BL245 规格书: 硬件产品/EdgePLC/规格书/BL245规格书.md
-          - BL245 使用说明书: 硬件产品/EdgePLC/说明书/BL245使用说明书.md
+      - EdgePLC 边缘控制器: 硬件产品/EdgePLC.md
   - 软件产品:
       - Codesys: 软件/Codesys.md
 
