@@ -51,7 +51,7 @@ nav:
       - Node-RED: 教程案例/Node-red.md
   - 硬件产品:
       - ARMxy 边缘网关: 硬件产品/ARMxy.md
-      - EdgePLC 边缘控制器: 硬件产品/EdgePLC.md
+      - EdgePLC 边缘控制器: 硬件产品/EdgeIO.md
   - 软件产品:
       - Codesys: 软件/Codesys.md
 
